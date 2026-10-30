@@ -1,3 +1,4 @@
+/*
 let firstName = "Philip";
 let lastName = "Tawfeek";
 
@@ -22,4 +23,28 @@ console.log(a);
 
 let b = 7 * a;
 console.log(b);
+*/
 
+function add7(number){
+    return number + 7;
+}
+console.log(add7(10));
+
+function multiply(num1, num2){
+    return num1 * num2;
+}
+console.log(multiply(3, 2));
+
+function capitaliz(str){
+    if(!str) return "";
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+}
+console.log(capitaliz("a7a"));
+console.log(capitaliz("baba"));
+
+function lastLetter(str){
+    if(!str) return "";
+    return str.slice(-1);
+}
+console.log(lastLetter("skate"));
+console.log(lastLetter("baba"));
